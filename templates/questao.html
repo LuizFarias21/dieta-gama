@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="{{ url_for('chatgpt') }}" method="post">
+        Qual sua dúvida? <input type="text" name="questao"> <input type="submit">
+        </form>
+       {{ resposta }}
+    </body>
+</html>
